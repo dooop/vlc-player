@@ -1,7 +1,7 @@
 // swift-tools-version:6.0
 import PackageDescription
 
-let binaryBaseURL = "https://github.com/dooop/swift-vlc/releases/download/0.3.0/"
+let binaryBaseURL = "https://github.com/dooop/vlc-player/releases/download/0.6.0/"
 
 let package = Package(
   name: "swift-vlc-player",
@@ -67,17 +67,17 @@ let package = Package(
     .binaryTarget(
       name: "VLCKit",
       url: "\(binaryBaseURL)VLCKit.xcframework.zip",
-      checksum: "da97059039cc2a4f6d19cfa0e5facab8259ee8430510a19ac34314b1fd55a729"
+      checksum: "1595bd3c795d05e3bd37d2fd8da1b9d187878713eade023388c422049e6e5ad2"
     ),
     .binaryTarget(
       name: "MobileVLCKit",
       url: "\(binaryBaseURL)MobileVLCKit.xcframework.zip",
-      checksum: "805c1e609f5dea9c62ac69539348254a2c73b1134e8370a0d5b31dc0b610504f"
+      checksum: "7c6ddf153702a07c44a5680eed9a990866776575ff7f2c4e0bba8af3caee2712"
     ),
     .binaryTarget(
       name: "TVVLCKit",
       url: "\(binaryBaseURL)TVVLCKit.xcframework.zip",
-      checksum: "526b00c8dcc0577183d449b508d642dd6f1c63fe4da5264e1d238a529ff173f9"
+      checksum: "97f780ab1b77de31ee88db3cea687c3745579106be69d33be760c0d6aef7b54d"
     ),
   ]
 )
